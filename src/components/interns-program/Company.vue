@@ -1,7 +1,7 @@
 <template>
-  <v-col cols="4" class="col pb-10">
+  <v-col lg="4" md="6" sm="12" class="col pb-10">
     <div class="d-flex flex-column justify-center align-center main">
-      <v-img :src="image" class="image"> </v-img>
+      <img :src="image" class="image" />
       <p class="title">
         {{ title }}
       </p>
@@ -29,10 +29,10 @@ defineProps({
 </script>
 <style scoped>
 .image {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border: 1px solid #33824a;
-  border-radius: 40px;
+  border-radius: 25px;
 }
 
 .col {
@@ -40,12 +40,12 @@ defineProps({
 }
 .title {
   color: #525252;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
 }
 .button {
   color: white;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
   line-height: auto;
   letter-spacing: 1px;

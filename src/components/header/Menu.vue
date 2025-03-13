@@ -1,5 +1,5 @@
 <template>
-  <div class="main d-flex flex-row justify-space-between mt-4">
+  <div class="main d-flex flex-row justify-space-between">
     <MenuLink to="/" title="Home" />
     <MenuLink to="/sobre" title="Sobre" />
     <MenuLink to="/vagas" title="Vagas" />

@@ -1,11 +1,11 @@
 <template>
-  <div class="main"><slot></slot></div>
+  <div class="container"><slot></slot></div>
 </template>
 <style scoped>
-.main {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  padding-right: 20%;
-  padding-left: 20%;
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 </style>

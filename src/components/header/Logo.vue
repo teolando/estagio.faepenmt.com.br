@@ -1,5 +1,10 @@
 <template>
-  <v-img src="/assets/logo.png" width="263" height="80"></v-img>
+  <div v-if="$vuetify.display.mobile">
+    <v-img src="/assets/logo.png" width="200" height="50"></v-img>
+  </div>
+  <div v-else>
+    <v-img src="/assets/logo.png" width="263" height="80"></v-img>
+  </div>
 </template>
 
 <script setup></script>

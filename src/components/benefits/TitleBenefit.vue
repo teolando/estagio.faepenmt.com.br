@@ -1,17 +1,17 @@
 <template>
-  <h3 class="title" :style="'color:' + color + ';'">{{ title }}</h3>
+  <p class="title">{{ title }}</p>
 </template>
 <script setup>
 defineProps({
-  color: String,
   title: String,
 });
 </script>
 
 <style scoped>
 .title {
-  font-size: 32px;
-  font-weight: 900;
+  color: #33824a;
+  font-size: 18px;
+  font-weight: 700;
   text-align: center;
 }
 </style>

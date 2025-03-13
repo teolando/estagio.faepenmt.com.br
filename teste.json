@@ -1,0 +1,27 @@
+{
+  "startDateIntervalBegin": "2024-01-01T00:00:00.000Z",
+  "StartDateIntervalEnd": "2124-01-01T00:00:00.000Z",
+  "formFieldNames": [
+    "nome",
+    "razaoSocial",
+    "nomeFantasia",
+    "cnpj",
+    "cpf",
+    "logradouro",
+    "numero",
+    "complemento",
+    "bairro",
+    "cidade",
+    "cep",
+    "tipoDeCadastro"
+  ],
+  "formFieldsFilter": [
+    {
+      "name": "nomeFantasia",
+      "operator": "like",
+      "value": "{Form.concedente}"
+    }
+  ],
+  "flowId": 140,
+  "active": false
+}
