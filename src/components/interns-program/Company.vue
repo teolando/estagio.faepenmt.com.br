@@ -1,7 +1,7 @@
 <template>
-  <v-col lg="4" md="6" sm="12" class="col pb-10">
+  <v-col lg="auto" md="auto" sm="12" class="col pb-10">
     <div class="d-flex flex-column justify-center align-center main">
-      <img :src="image" class="image" />
+      <img v-bind="props" :src="image" class="image" />
       <p class="title">
         {{ title }}
       </p>
@@ -12,7 +12,9 @@
             v-bind="props"
             :href="to"
             class="button text-capitalize"
-            :style="{ 'background-color': isHovering ? '#33824A' : '#525252' }"
+            :style="{
+              'background-color': isHovering ? '#33824A' : '#525252',
+            }"
             >Ver Vagas</v-btn
           >
         </template>
@@ -29,10 +31,10 @@ defineProps({
 </script>
 <style scoped>
 .image {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #33824a;
-  border-radius: 25px;
+  width: 360px;
+  height: 360px;
+  border: 2px solid #525252;
+  border-radius: 40px;
 }
 
 .col {

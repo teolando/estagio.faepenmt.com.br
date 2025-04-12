@@ -4,9 +4,10 @@
       <Logo />
     </div>
 
-    <div class="d-flex flex-column justify-center align-end">
+    <!-- <div class="d-flex flex-column justify-center align-end">
       <slot></slot>
-    </div>
+    </div> -->
+    <SocialMedia />
   </div>
 </template>
 <script setup></script>

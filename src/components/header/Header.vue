@@ -5,7 +5,7 @@
     </div>
     <div class="d-flex flex-column justify-center align-end">
       <SocialMedia />
-      <Menu />
+      <!-- <Menu /> -->
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row justify-space-between social-media mb-4">
+  <div class="d-flex flex-row justify-space-between social-media">
     <SocialMediaIcon
       icon="mdi mdi-instagram"
       link="https://www.instagram.com/faepenmt"

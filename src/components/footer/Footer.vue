@@ -11,7 +11,7 @@
     <div class="copyright-text text-center">
       Copyright © 2025 FAEPEN/MT. Todos os Direitos Reservados.
     </div>
-    <div>
+    <div class="mt-3">
       <v-img src="/assets/mrx.svg" width="120"></v-img>
     </div>
   </Container>
